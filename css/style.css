@@ -275,3 +275,19 @@ ul li:first-child{
     color: white;
     padding: 10px 30px 10px 0px;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+.bottone:hover{
+    background-color: black;
+    color: white;
+}
+
+.head-top:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,255,145,1) 100%)
+    
+}
+.finale-top:hover, .finale-bottom:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,255,145,1) 100%)
+}
