@@ -10,21 +10,10 @@
     border: 2px solid black;
 }
 
-.debug .content-destra {
-    background-color: chartreuse;
-    border: dashed 1px black;
 
-}
 
-.debug .contenuto {
-    border: dashed 1px black;
-}
 
-.debug .content-sinistra {
-    background-color: brown;
-    border: dashed 1px black;
 
-}
 
 .debug .grigio {
     background-color: lightgrey;
@@ -113,7 +102,7 @@ header {
     background-image: url("/img/jumbo.png");
     background-size: cover;
     height: 90%;
-    
+
 }
 
 .header-nav {
@@ -149,38 +138,64 @@ header {
     text-align: center;
     margin-top: 30px;
 }
-h1{
-color: white;
+
+header h1 {
+    color: white;
 
 }
-p{
+
+header p {
     color: white;
     padding: 20px;
 }
 
-.nero{
+.nero {
     background-color: #23272A;
     color: white;
 }
 
 /*start main*/
-.principale {
-    height: 400px;
-}
+
 
 .contenuto {
-    width: 70%;
+    width: 60%;
     height: 80%;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    width: 100%;
+}
+
+section p {
+    line-height: 1.6em;
+    color: black;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+
+section h1 {
+    color: black;
+    font-size: 33px;
+    padding-top: 20px;
+   
 }
 
 .content-sinistra {
+    flex-direction: column;
     width: 40%;
     height: 100%;
 }
 
+.content-destra .figurauno {
+    background-image: url(/img/item1.svg);
+}
+
 .content-destra {
-    width: 70%;
+    background-size: cover;
+    width: 60%;
     height: 100%;
 }
 
