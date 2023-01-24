@@ -16,14 +16,6 @@
 
 
 
-.debug .grigio {
-    background-color: lightgrey;
-}
-
-.debug .content-grande {
-    background-color: green;
-    border: 2px dashed black;
-}
 
 .debug .finale-top {
     background-color: rgb(37, 35, 35);
@@ -74,6 +66,9 @@
     max-width: 1170px;
 }
 
+ .grigio {
+    background-color: lightgrey;
+}
 /*start header*/
 header {
     height: 400px;
@@ -167,7 +162,7 @@ padding-top: 50px;
     align-items: flex-start;
 }
 
-img {
+.imgpiccole {
     width: 413px;
     height: 268px;
 }
@@ -203,19 +198,31 @@ section h1 {
     height: 100%;
 }
 
-.grande {
-    height: 600px;
-}
 
 .content-grande {
     width: 70%;
     height: calc(100% - 80px);
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
 }
+
+h3{
+    background-image: url(/img/stars.svg);
+    background-size: auto;
+    padding: 20px;
+}
+
+.bottone.blu{
+    background-color: #7289DA;
+    color: white;
+}
+
+
 
 /*start footer*/
 .finale-top {
     height: 400px;
-
     padding: 20px;
 }
 
