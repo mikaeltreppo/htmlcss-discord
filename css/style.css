@@ -56,7 +56,7 @@ header {
 .head-bottom {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 90%;
+    height: 500px;
 
 }
 
@@ -100,6 +100,10 @@ header h1 {
 
 }
 
+.principale{
+  padding-top: 200px;
+}
+
 header p {
     color: white;
     padding: 20px;
@@ -130,14 +134,14 @@ section {
 section p {
     line-height: 1.6em;
     color: black;
-    font-size: 14px;
+    font-size: 30px;
     margin: 20px 0px;
 }
 
 
 section h1 {
     color: black;
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 20px;
 
 }
@@ -160,21 +164,26 @@ section h1 {
 
 
 .content-grande {
-    width: 70%;
+    width: 90%;
     height: calc(100% - 80px);
     flex-direction: column;
     text-align: center;
     padding-bottom: 50px;
 }
 
-.content-grande p {
-    width: 87%
+.content-grande img{
+    width: 100%;
 }
+
+.content-grande p {
+    width: 87%;
+    font-size:20px}
 
 .content-grande h3 {
     background-image: url(/img/stars.svg);
     background-size: auto;
     padding: 20px;
+    font-size: 30px;
 }
 
 .bottone.blu {
