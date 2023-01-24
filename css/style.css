@@ -156,7 +156,9 @@ header p {
 }
 
 /*start main*/
-
+section{
+padding-top: 50px;
+}
 
 .contenuto {
     width: 60%;
