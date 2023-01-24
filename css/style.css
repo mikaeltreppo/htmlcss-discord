@@ -3,30 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{margin: auto;}
-
-/*debug*/
-
-
-
-
-
-
-
-
-.debug .finale-bottom {
-    background-color: rgb(37, 35, 35);
-}
-
-.debug .foot-bottom {
-    background-color: greenyellow;
-}
-
-.logo-footer,
-.bottone-footer {
-    border: dashed 1px black;
+    
 }
 
 
@@ -42,17 +19,11 @@ body{margin: auto;}
     font-size: 12px;
     cursor: pointer;
 }
-
 .flex-c {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-
-.max-width {
-    max-width: 1170px;
-}
-
 .grigio {
     background-color: lightgrey;
 }
@@ -83,7 +54,7 @@ header {
 }
 
 .head-bottom {
-    background-image: url("/img/jumbo.png");
+    background-image: url("../img/jumbo.png");
     background-size: cover;
     height: 90%;
 
@@ -125,6 +96,7 @@ header {
 
 header h1 {
     color: white;
+    font-size: 50px;
 
 }
 
@@ -140,19 +112,19 @@ header p {
 
 /*start main*/
 section {
-    padding-top: 100px;
+    padding: 50px 0px;
 }
 
 .contenuto {
-    width: 60%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
 .imgpiccole {
-    width: 413px;
-    height: 268px;
+    width: 100%;
+    height: 100%;
 }
 
 section p {
@@ -165,7 +137,7 @@ section p {
 
 section h1 {
     color: black;
-    font-size: 33px;
+    font-size: 50px;
     padding-top: 20px;
 
 }
@@ -222,14 +194,16 @@ section h1 {
     width: 70%;
     height: 80%;
     display: flex;
+    border-bottom: 2px solid grey ;
 
 }
 
 .finale-bottom {
-    height: 100px;
+  
     justify-content: center;
-    align-items: flex-end;
-    flex-direction: row-reverse;
+    align-items: flex-start;
+
+    background-color: #23272A;
   
 }
 
