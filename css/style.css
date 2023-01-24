@@ -17,10 +17,6 @@
 
 
 
-.debug .finale-top {
-    background-color: rgb(37, 35, 35);
-    border-bottom: 2px solid wheat;
-}
 
 .debug .finale-bottom {
     background-color: rgb(37, 35, 35);
@@ -30,19 +26,12 @@
     background-color: greenyellow;
 }
 
-.debug .col {
-    background-color: beige;
-    border: dashed 1px black;
-}
-
 .logo-footer,
 .bottone-footer {
     border: dashed 1px black;
 }
 
-.debug .foot-top {
-    background-color: rosybrown;
-}
+
 
 /*generali*/
 
@@ -66,9 +55,10 @@
     max-width: 1170px;
 }
 
- .grigio {
+.grigio {
     background-color: lightgrey;
 }
+
 /*start header*/
 header {
     height: 400px;
@@ -151,8 +141,8 @@ header p {
 }
 
 /*start main*/
-section{
-padding-top: 50px;
+section {
+    padding-top: 50px;
 }
 
 .contenuto {
@@ -179,7 +169,7 @@ section h1 {
     color: black;
     font-size: 33px;
     padding-top: 20px;
-   
+
 }
 
 .content-sinistra {
@@ -207,13 +197,17 @@ section h1 {
     padding-bottom: 50px;
 }
 
-h3{
+.content-grande p {
+    width: 87%
+}
+
+.content-grande h3 {
     background-image: url(/img/stars.svg);
     background-size: auto;
     padding: 20px;
 }
 
-.bottone.blu{
+.bottone.blu {
     background-color: #7289DA;
     color: white;
 }
@@ -223,7 +217,7 @@ h3{
 /*start footer*/
 .finale-top {
     height: 400px;
-    padding: 20px;
+    padding: 20px;  background-color: #23272A;
 }
 
 .foot-top {
@@ -231,6 +225,7 @@ h3{
     width: 70%;
     height: 80%;
     display: flex;
+
 }
 
 .finale-bottom {
@@ -238,6 +233,7 @@ h3{
     justify-content: center;
     align-items: flex-end;
     flex-direction: row-reverse;
+  
 }
 
 .foot-bottom {
@@ -250,6 +246,7 @@ h3{
 
 .col {
     width: 18%;
+    padding-top: 0px;
 }
 
 .uno {
@@ -260,4 +257,32 @@ h3{
 .bottone-footer {
     width: 60px;
     height: 50px;
+}
+
+.col h2 {
+    color: #7289DA;
+    margin-bottom: 20px;
+}
+
+.col.uno span {
+    font-size: 11px;
+    padding: 3px;
+}
+
+.bandiera {
+    width: 20px;
+    height: 15px;
+}
+
+.icone {
+    color: white;
+    padding-top: 10px;
+}
+
+.icone i {
+    margin-right: 8px;
+}
+
+li{
+    list-style: none;
 }
