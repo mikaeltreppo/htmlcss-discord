@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*debug*/
@@ -165,7 +166,8 @@ header p {
 }
 
 img {
-    width: 100%;
+    width: 413px;
+    height: 268px;
 }
 
 section p {
