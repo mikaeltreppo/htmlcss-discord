@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*debug*/
+
+.debug .sez-uno {
+    border: 2px solid black;
+}
+
+.debug .content-destra {
+    background-color: chartreuse;
+    border: dashed 1px black;
+
+}
+
+.debug .contenuto {
+    border: dashed 1px black;
+}
+
+.debug .content-sinistra {
+    background-color: brown;
+    border: dashed 1px black;
+
+}
+
+.debug .grigio {
+    background-color: lightgrey;
+}
+
+.debug .content-grande {
+    background-color: green;
+    border: 2px dashed black;
+}
+
+.debug .finale-top {
+    background-color: rgb(37, 35, 35);
+    border-bottom: 2px solid wheat;
+}
+
+.debug .finale-bottom {
+    background-color: rgb(37, 35, 35);
+}
+
+.debug .foot-bottom {
+    background-color: greenyellow;
+}
+
+.debug .col {
+    background-color: beige;
+    border: dashed 1px black;
+}
+
+.logo-footer,
+.bottone-footer {
+    border: dashed 1px black;
+}
+
+.debug .foot-top {
+    background-color: rosybrown;
+}
+
+/*generali*/
+
+.bottone {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.max-width {
+    max-width: 1170px;
+}
+
+/*start header*/
+header {
+    height: 400px;
+    background-color: #255EE9;
+}
+
+.head-top {
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tasti li {
+    display: inline;
+}
+
+.tasti a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 0px 7px;
+
+}
+
+.head-bottom {
+    background-image: url("/img/jumbo.png");
+    background-size: cover;
+    height: 90%;
+    
+}
+
+.header-nav {
+    width: 70%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasti {
+    height: 100%;
+}
+
+.logo {
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.login {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.link {
+    padding-right: 40px;
+
+}
+
+.head {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+color: white;
+
+}
+p{
+    color: white;
+    padding: 20px;
+}
+
+.nero{
+    background-color: #23272A;
+    color: white;
+}
+
+/*start main*/
+.principale {
+    height: 400px;
+}
+
+.contenuto {
+    width: 70%;
+    height: 80%;
+    justify-content: flex-start;
+}
+
+.content-sinistra {
+    width: 40%;
+    height: 100%;
+}
+
+.content-destra {
+    width: 70%;
+    height: 100%;
+}
+
+.grande {
+    height: 600px;
+}
+
+.content-grande {
+    width: 70%;
+    height: calc(100% - 80px);
+}
+
+/*start footer*/
+.finale-top {
+    height: 400px;
+
+    padding: 20px;
+}
+
+.foot-top {
+    margin: auto;
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+
+.finale-bottom {
+    height: 100px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.foot-bottom {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    width: 18%;
+}
+
+.uno {
+    width: 28%;
+}
+
+.logo-footer,
+.bottone-footer {
+    width: 60px;
+    height: 50px;
+}
